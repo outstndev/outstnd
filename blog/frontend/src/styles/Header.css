@@ -1,0 +1,33 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100px; 
+}
+
+.header h1 {
+    margin-left: 80px; 
+    font-size: 25px;
+}
+
+.header nav ul {
+    list-style: none; 
+    margin-right: 80px; 
+    padding: 0; 
+    display: flex; 
+}
+
+.header nav ul li {
+    margin-left: 20px; 
+}
+
+.header nav ul li a {
+    text-decoration: none; 
+    color: #9c9c9c; 
+    cursor: pointer;
+}
+
+.header nav ul li a:hover {
+    color: black; 
+}
